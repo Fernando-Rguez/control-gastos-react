@@ -395,8 +395,8 @@ body .modal {
     .modal .formulario.animar {
         height: 100%;
     }
-    .modal {
-        overflow: hidden;
+    .fijar .modal {
+        overflow-y: hidden!important;
     }
     .modal .cerrar-modal {
         z-index: 1;
