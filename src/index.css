@@ -21,7 +21,7 @@ html {
     box-sizing: inherit;
 }
 .fijar {
-    overflow: hidden;
+    overflow: hidden!important;
     height: 100vh;
 }
 h1 {
@@ -311,7 +311,8 @@ main {
     color: var(--blanco);
 }
 body .modal {
-    overflow: hidden;
+    overflow: hidden!important;
+    overflow-y: hidden!important;
 }
 .modal .formulario.animar {
     position: relative;
