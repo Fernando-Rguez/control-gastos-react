@@ -287,7 +287,7 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 10;
+    overflow: hidden!important;
 }
 .modal .cerrar-modal {
     position: absolute;
@@ -295,7 +295,6 @@ main {
     top: 3rem;
     width: 3rem;
     height: 3rem;
-    z-index: 10;
 }
 .modal .cerrar-modal img {
     width: 100%;
