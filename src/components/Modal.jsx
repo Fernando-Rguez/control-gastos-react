@@ -23,8 +23,8 @@ const Modal = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoEditar
         setAnimarModal(false);
         setGastoEditar({})
         setTimeout(() => {
-            setModal(false)
-          }, 500);
+            setModal(false)  
+        }, 700);
     }
 
     const handleSubmit = e => {
