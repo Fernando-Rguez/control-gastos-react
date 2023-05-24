@@ -287,7 +287,6 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: hidden!important;
 }
 .modal .cerrar-modal {
     position: absolute;
@@ -395,6 +394,12 @@ body .modal {
     }
     .modal .formulario.animar {
         height: 100%;
+    }
+    .modal {
+        overflow: hidden;
+    }
+    .modal .cerrar-modal {
+        z-index: 1;
     }
     
 }
