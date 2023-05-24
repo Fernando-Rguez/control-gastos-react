@@ -392,9 +392,9 @@ body .modal {
     .gasto {
         gap: 0;
     }
-    .modal .formulario.animar {
+    /* .modal .formulario.animar {
         height: 100%;
-    }
+    } */
     .modal {
         position: fixed;
     }
